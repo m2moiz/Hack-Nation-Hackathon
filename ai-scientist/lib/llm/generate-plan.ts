@@ -112,8 +112,8 @@ const MAX_ATTEMPTS = 2;
 
 export async function generatePlan(
   hypothesis: string,
-  catalogContext: string,
-  tavilyContext: string
+  catalogContext: string = '',
+  papersContext: string = '',
 ): Promise<ExperimentPlan> {
   if (!process.env.OPENAI_API_KEY) return MOCK_PLAN;
 
@@ -135,7 +135,7 @@ export async function generatePlan(
 
   const userPrompt = `Hypothesis: ${hypothesis}
 
-${tavilyContext ? `Relevant literature:\n${tavilyContext}\n` : ''}
+${papersContext ? `Relevant literature:\n${papersContext}\n` : ''}
 ${catalogContext ? `Available reagents from catalog:\n${catalogContext}\n` : ''}
 ${protocolContext ? `Reference protocols (only cite these DOIs in protocolRefs, never invent one):\n${protocolContext}\n` : ''}
 Design a complete experiment plan for this hypothesis.`;
@@ -144,7 +144,7 @@ Design a complete experiment plan for this hypothesis.`;
 
   for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
     try {
-      const completion = await client.beta.chat.completions.parse({
+      const completion = await client.chat.completions.parse({
         model: 'gpt-4o-2024-08-06',
         messages: [
           { role: 'system', content: systemPrompt },

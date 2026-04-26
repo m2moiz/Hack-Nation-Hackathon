@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { MOCK_PLAN } from '@/data/mock-plan';
-import { searchPapers } from '@/lib/tavily';
 import { getCatalogContext } from '@/lib/catalog';
+import { getPapersContext } from '@/lib/papers';
 import { generatePlan } from '@/lib/llm/generate-plan';
 
 const RequestSchema = z.object({
@@ -24,13 +24,13 @@ export async function POST(req: NextRequest) {
 
   const { hypothesis } = parsed.data;
 
-  const [tavilyContext, catalogContext] = await Promise.all([
-    searchPapers(hypothesis),
+  const [papersContext, catalogContext] = await Promise.all([
+    getPapersContext(hypothesis),
     getCatalogContext(hypothesis),
   ]);
 
   try {
-    const plan = await generatePlan(hypothesis, catalogContext, tavilyContext);
+    const plan = await generatePlan(hypothesis, catalogContext, papersContext);
     return NextResponse.json(plan);
   } catch {
     return NextResponse.json(MOCK_PLAN);
