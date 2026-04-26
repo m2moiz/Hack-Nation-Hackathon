@@ -8,8 +8,7 @@
     "priceEur": 595,
     "supplierUrl": "https://www.atcc.org/products/ccl-2",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology",
@@ -26,8 +25,7 @@
     "priceEur": 48,
     "supplierUrl": "https://www.sigmaaldrich.com/catalog/product/sigma/t9531",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -43,8 +41,7 @@
     "priceEur": 38,
     "supplierUrl": "https://www.sigmaaldrich.com/catalog/product/sigma/d2650",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -60,8 +57,7 @@
     "priceEur": 32,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/11965092",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology",
@@ -78,8 +74,7 @@
     "priceEur": 410,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/10500064",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology",
@@ -97,8 +92,7 @@
     "priceEur": 45,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/T10282",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -114,8 +108,7 @@
     "priceEur": 28,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/25200056",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -131,8 +124,7 @@
     "priceEur": 34,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/15140122",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -148,8 +140,7 @@
     "priceEur": 55,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/5000-0012",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -165,8 +156,7 @@
     "priceEur": 75,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/5100-0001",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -182,8 +172,7 @@
     "priceEur": 185,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/L34957",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -201,7 +190,7 @@
     "applicableExperimentTypes": [
       "in_vitro",
       "in_vivo",
-      "cell_biology"
+      "electrochemical"
     ],
     "domain": [
       "cell_biology",
@@ -219,8 +208,7 @@
     "priceEur": 95,
     "supplierUrl": "https://www.sigmaaldrich.com/catalog/product/sigma/cls3595",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -236,8 +224,7 @@
     "priceEur": 220,
     "supplierUrl": "https://www.promega.com/products/cell-viability/celltiter-glo-luminescent-cell-viability-assay/",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology",
@@ -254,8 +241,7 @@
     "priceEur": 22,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/25030081",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
@@ -1480,8 +1466,7 @@
     "priceEur": 58,
     "supplierUrl": "https://www.thermofisher.com/order/catalog/product/P3566",
     "applicableExperimentTypes": [
-      "in_vitro",
-      "cell_biology"
+      "in_vitro"
     ],
     "domain": [
       "cell_biology"
