@@ -1,0 +1,65 @@
+{
+  "_description": "Standard lab cost parameters for budget line item generation. All values in EUR.",
+  "laborRates": {
+    "postdoc_per_hour": 40,
+    "phd_student_per_hour": 28,
+    "lab_technician_per_hour": 25,
+    "senior_scientist_per_hour": 65,
+    "pi_per_hour": 120
+  },
+  "equipmentTimeRates": {
+    "flow_cytometer_per_hour": 45,
+    "confocal_microscope_per_hour": 85,
+    "electron_microscope_per_hour": 150,
+    "hplc_per_hour": 35,
+    "potentiostat_per_day": 120,
+    "qpcr_machine_per_run": 8,
+    "plate_reader_per_hour": 15,
+    "anaerobic_chamber_per_day": 60,
+    "liquid_nitrogen_storage_per_week": 40,
+    "biosafety_cabinet_per_hour": 10,
+    "co2_incubator_per_week": 25
+  },
+  "overheadRates": {
+    "institutional_overhead_fraction": 0.12,
+    "consumables_markup_fraction": 0.08
+  },
+  "typicalLabTimeByExperimentType": {
+    "in_vitro_simple": {
+      "totalHours": 80,
+      "breakdown": {
+        "technician": 60,
+        "postdoc": 20
+      }
+    },
+    "in_vitro_complex": {
+      "totalHours": 160,
+      "breakdown": {
+        "technician": 100,
+        "postdoc": 60
+      }
+    },
+    "in_vivo_4weeks": {
+      "totalHours": 240,
+      "breakdown": {
+        "technician": 160,
+        "postdoc": 80
+      }
+    },
+    "electrochemical_basic": {
+      "totalHours": 120,
+      "breakdown": {
+        "technician": 60,
+        "postdoc": 60
+      }
+    }
+  },
+  "shippingAndHandling": {
+    "standard_reagent_per_order_eur": 25,
+    "dry_ice_biological_per_order_eur": 55,
+    "live_cell_priority_per_order_eur": 95,
+    "hazmat_chemical_per_order_eur": 40
+  },
+  "contingencyPercentRecommended": 12,
+  "currencyNote": "All prices in EUR. Sigma-Aldrich and Thermo Fisher European pricing as of 2024. Add 5-8% for VAT if applicable in your country."
+}

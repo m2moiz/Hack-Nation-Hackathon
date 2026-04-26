@@ -1,0 +1,586 @@
+[
+  {
+    "id": "PROT-001",
+    "title": "Standard HeLa cell cryopreservation with DMSO",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.bakdicse",
+    "url": "https://www.protocols.io/view/standard-hela-cell-cryopreservation-with-dmso-bakdicse",
+    "year": 2021,
+    "domain": [
+      "cell_biology"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "10% DMSO in FBS freezing medium, Mr. Frosty -1C/min ramp to -80C, transfer to LN2 after 24h.",
+    "keyParameters": [
+      "10% DMSO v/v",
+      "1e6 cells/mL",
+      "Mr. Frosty -1C/min",
+      "24h at -80C before LN2 transfer"
+    ]
+  },
+  {
+    "id": "PROT-002",
+    "title": "Post-thaw viability assessment using trypan blue exclusion",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.6qpvr5n3bvmk",
+    "url": "https://www.protocols.io/view/trypan-blue-exclusion-viability",
+    "year": 2022,
+    "domain": [
+      "cell_biology"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "Rapid thaw at 37C water bath, dilute 1:10 in warm medium, count with hemocytometer, exclude trypan-blue-positive cells.",
+    "keyParameters": [
+      "37C water bath thaw <2 min",
+      "1:1 trypan blue dilution",
+      "Count minimum 200 cells",
+      "Express as % viable"
+    ]
+  },
+  {
+    "id": "PROT-003",
+    "title": "Trehalose cryoprotection of mammalian cells without DMSO",
+    "source": "Nature Protocols",
+    "doi": "10.1038/nprot.2017.062",
+    "url": "https://www.nature.com/articles/nprot.2017.062",
+    "year": 2017,
+    "domain": [
+      "cell_biology"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "Stepwise trehalose loading into cells via endocytosis, replace DMSO, achieve equivalent post-thaw recovery.",
+    "keyParameters": [
+      "0.2 M trehalose loading 1h at 37C",
+      "Centrifuge wash to remove excess",
+      "Freeze at 1e6 cells/mL",
+      "Trehalose in cryomedium at 0.1 M"
+    ]
+  },
+  {
+    "id": "PROT-004",
+    "title": "HeLa cell culture maintenance and passaging",
+    "source": "ATCC",
+    "doi": "none",
+    "url": "https://www.atcc.org/products/ccl-2",
+    "year": 2023,
+    "domain": [
+      "cell_biology"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "DMEM + 10% FBS, 37C 5% CO2, passage at 80-90% confluency with 0.25% trypsin-EDTA.",
+    "keyParameters": [
+      "37C 5% CO2",
+      "Passage ratio 1:5 to 1:10",
+      "Subculture every 2-3 days",
+      "Max passage 30"
+    ]
+  },
+  {
+    "id": "PROT-005",
+    "title": "CellTiter-Glo ATP bioluminescence viability assay",
+    "source": "Promega",
+    "doi": "none",
+    "url": "https://www.promega.com/resources/protocols/technical-manuals/101/celltiter-glo-luminescent-cell-viability-assay-protocol/",
+    "year": 2023,
+    "domain": [
+      "cell_biology",
+      "oncology"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "Lyse cells in 96-well plate, add CellTiter-Glo reagent 1:1, incubate 10 min, read luminescence.",
+    "keyParameters": [
+      "10 min lysis at RT",
+      "1:1 reagent to media",
+      "10 min dark stabilization",
+      "Read <30 min after mixing"
+    ]
+  },
+  {
+    "id": "PROT-006",
+    "title": "Flow cytometry cell viability with LIVE/DEAD stain",
+    "source": "Thermo Fisher",
+    "doi": "none",
+    "url": "https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets/LSG/manuals/mp34955.pdf",
+    "year": 2022,
+    "domain": [
+      "cell_biology"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "Stain cells with LIVE/DEAD Aqua in PBS (no serum), incubate 30 min on ice, fix or analyze directly.",
+    "keyParameters": [
+      "1:1000 dye dilution in PBS",
+      "30 min on ice",
+      "Wash twice before analysis",
+      "Pacific Blue channel 448/520"
+    ]
+  },
+  {
+    "id": "PROT-007",
+    "title": "FITC-dextran intestinal permeability assay in mice",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.bvr8n67w",
+    "url": "https://www.protocols.io/view/fitc-dextran-intestinal-permeability-assay-in-mice-bvr8n67w",
+    "year": 2022,
+    "domain": [
+      "gut_health"
+    ],
+    "experimentType": "in_vivo",
+    "summary": "Oral gavage of 4kDa FITC-dextran (600 mg/kg), 4h transit, tail vein blood collection, fluorescence quantitation in serum.",
+    "keyParameters": [
+      "600 mg/kg FITC-dextran in PBS",
+      "4h before blood collection",
+      "Fast mice 4h before gavage",
+      "Serum dilute 1:10 in PBS, read 485/528 nm"
+    ]
+  },
+  {
+    "id": "PROT-008",
+    "title": "Lactobacillus rhamnosus GG gavage in C57BL/6 mice",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.q26g7y7rkgwz",
+    "url": "https://www.protocols.io/view/lgg-gavage-c57bl6",
+    "year": 2021,
+    "domain": [
+      "gut_health"
+    ],
+    "experimentType": "in_vivo",
+    "summary": "Culture LGG in MRS broth 24h, pellet, resuspend in PBS to 1e10 CFU/mL, gavage 200 uL daily.",
+    "keyParameters": [
+      "1e9 CFU per mouse per day",
+      "200 uL gavage volume",
+      "Daily dosing for 4 weeks",
+      "Confirm CFU by plating before each dosing week"
+    ]
+  },
+  {
+    "id": "PROT-009",
+    "title": "Intestinal tight junction protein analysis by Western blot",
+    "source": "bio-protocol.org",
+    "doi": "10.21769/BioProtoc.2374",
+    "url": "https://bio-protocol.org/e2374",
+    "year": 2017,
+    "domain": [
+      "gut_health",
+      "cell_biology"
+    ],
+    "experimentType": "in_vivo",
+    "summary": "Isolate intestinal mucosa, homogenize in RIPA, run NuPAGE 4-12% gel, transfer to nitrocellulose, probe claudin-1 and occludin.",
+    "keyParameters": [
+      "30 ug protein per lane",
+      "Anti-claudin-1 1:1000",
+      "Anti-occludin 1:500",
+      "GAPDH loading control 1:5000"
+    ]
+  },
+  {
+    "id": "PROT-010",
+    "title": "16S rRNA amplicon sequencing of gut microbiome",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.rm7vzjm44lx1",
+    "url": "https://www.protocols.io/view/16s-rrna-gut-microbiome",
+    "year": 2023,
+    "domain": [
+      "gut_health"
+    ],
+    "experimentType": "microbial",
+    "summary": "DNA extraction from stool with ZymoBIOMICS kit, V3-V4 region amplification, Illumina library prep, 2x250 paired-end sequencing.",
+    "keyParameters": [
+      "341F/806R primers for V3-V4",
+      "Minimum 10,000 reads per sample",
+      "ZymoBIOMICS mock community as benchmark",
+      "QIIME2 for bioinformatics"
+    ]
+  },
+  {
+    "id": "PROT-011",
+    "title": "Quantitative RT-PCR for tight junction gene expression",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.j8nlkkwnol5r",
+    "url": "https://www.protocols.io/view/qrt-pcr-tight-junction",
+    "year": 2022,
+    "domain": [
+      "gut_health"
+    ],
+    "experimentType": "in_vivo",
+    "summary": "Extract RNA from intestinal tissue with RNeasy, synthesize cDNA with iScript, run SYBR Green qPCR, normalize to GAPDH.",
+    "keyParameters": [
+      "1 ug RNA input per cDNA reaction",
+      "3-step PCR: 95C 30s, 60C 30s, 72C 30s",
+      "MIQE-compliant: include NTC and genomic DNA controls",
+      "Report as fold-change via delta-delta-Ct"
+    ]
+  },
+  {
+    "id": "PROT-012",
+    "title": "Intestinal histology and H&E staining",
+    "source": "bio-protocol.org",
+    "doi": "10.21769/BioProtoc.3621",
+    "url": "https://bio-protocol.org/e3621",
+    "year": 2020,
+    "domain": [
+      "gut_health"
+    ],
+    "experimentType": "in_vivo",
+    "summary": "Swiss-roll intestinal segment fixation in 10% formalin, paraffin embedding, 5 um sectioning, H&E staining for villus/crypt morphology.",
+    "keyParameters": [
+      "10% neutral buffered formalin 24h",
+      "5 um sections",
+      "Score villus height and crypt depth",
+      "Blinded scoring by two independent observers"
+    ]
+  },
+  {
+    "id": "PROT-013",
+    "title": "Mouse cytokine ELISA (IL-6, TNF-alpha)",
+    "source": "Thermo Fisher",
+    "doi": "none",
+    "url": "https://www.thermofisher.com/order/catalog/product/88-7064-88",
+    "year": 2023,
+    "domain": [
+      "gut_health",
+      "immunology"
+    ],
+    "experimentType": "in_vivo",
+    "summary": "Sandwich ELISA for murine IL-6 and TNF-alpha in serum and intestinal tissue homogenate.",
+    "keyParameters": [
+      "Coat plate with capture antibody 100 uL/well",
+      "Block 1h with 10% FBS",
+      "Sample and standard dilutions in duplicate",
+      "Read at 450 nm, subtract 570 nm reference"
+    ]
+  },
+  {
+    "id": "PROT-014",
+    "title": "Antibody immobilization on screen-printed carbon electrode via EDC/NHS",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.bf4ajqye",
+    "url": "https://www.protocols.io/view/antibody-immobilization-screen-printed-electrode",
+    "year": 2020,
+    "domain": [
+      "diagnostics"
+    ],
+    "experimentType": "electrochemical",
+    "summary": "Activate COOH-SPE with EDC/NHS, drop-cast anti-CRP antibody, block with BSA, characterize by EIS and CV.",
+    "keyParameters": [
+      "0.1 M MES pH 5.5 for EDC activation",
+      "40 mM EDC + 10 mM NHS, 30 min",
+      "Antibody 10 ug/mL in PBS pH 7.4",
+      "1% BSA block 1h at RT"
+    ]
+  },
+  {
+    "id": "PROT-015",
+    "title": "Electrochemical impedance spectroscopy characterization of biosensors",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.yrxmvpno",
+    "url": "https://www.protocols.io/view/eis-biosensor-characterization",
+    "year": 2021,
+    "domain": [
+      "diagnostics"
+    ],
+    "experimentType": "electrochemical",
+    "summary": "EIS measurement in 5mM Fe(CN)6 3-/4- PBS electrolyte, frequency sweep 0.1 Hz to 100 kHz, fit Randles circuit.",
+    "keyParameters": [
+      "5 mM K3Fe(CN)6 + 5 mM K4Fe(CN)6 in 0.1 M PBS",
+      "Frequency: 0.1 Hz to 100 kHz",
+      "Amplitude: 10 mV",
+      "Fit Randles circuit: Rs, Rct, Cdl, Zw"
+    ]
+  },
+  {
+    "id": "PROT-016",
+    "title": "Paper-based electrochemical biosensor fabrication for point-of-care",
+    "source": "Nature Protocols",
+    "doi": "10.1038/s41596-021-00512-8",
+    "url": "https://www.nature.com/articles/s41596-021-00512-8",
+    "year": 2021,
+    "domain": [
+      "diagnostics"
+    ],
+    "experimentType": "electrochemical",
+    "summary": "Wax printing to define channels on Whatman 4 paper, screen-print carbon ink electrodes, functionalize with recognition element.",
+    "keyParameters": [
+      "Wax printer 180C for paper channel definition",
+      "Carbon ink sintering 120C 30 min",
+      "Channel width 5 mm for 10 uL sample",
+      "Electrode geometry: 3mm working diameter"
+    ]
+  },
+  {
+    "id": "PROT-017",
+    "title": "CRP quantification in whole blood by high-sensitivity ELISA",
+    "source": "Thermo Fisher",
+    "doi": "none",
+    "url": "https://www.thermofisher.com/order/catalog/product/EHCRP",
+    "year": 2023,
+    "domain": [
+      "diagnostics"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "Dilute whole blood 1:100 in sample diluent, run high-sensitivity sandwich ELISA, read at 450 nm.",
+    "keyParameters": [
+      "LLOQ 0.05 mg/L",
+      "Dilute whole blood 1:100 minimum",
+      "Standard range 0.1-10 mg/L",
+      "Clinical cutoff: <1 mg/L normal, >10 mg/L acute inflammation"
+    ]
+  },
+  {
+    "id": "PROT-018",
+    "title": "Differential pulse voltammetry for biosensor signal readout",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.9yih7fe",
+    "url": "https://www.protocols.io/view/dpv-biosensor-readout",
+    "year": 2022,
+    "domain": [
+      "diagnostics"
+    ],
+    "experimentType": "electrochemical",
+    "summary": "DPV scan from -0.2 to +0.6 V vs Ag/AgCl, peak current at +0.22 V corresponds to Fe(II) oxidation.",
+    "keyParameters": [
+      "Scan rate 5 mV/s",
+      "Pulse amplitude 25 mV",
+      "Pulse width 50 ms",
+      "Peak current at +0.22 V vs Ag/AgCl"
+    ]
+  },
+  {
+    "id": "PROT-019",
+    "title": "Sporomusa ovata bioelectrochemical CO2 reduction setup",
+    "source": "Nature Protocols",
+    "doi": "10.1038/nprot.2014.234",
+    "url": "https://www.nature.com/articles/nprot.2014.234",
+    "year": 2014,
+    "domain": [
+      "climate"
+    ],
+    "experimentType": "electrochemical",
+    "summary": "Inoculate H-cell with S. ovata on carbon cloth cathode at -400 mV vs SHE under continuous CO2 sparging, monitor acetate by HPLC.",
+    "keyParameters": [
+      "-400 mV vs SHE cathode potential",
+      "-597 mV vs Ag/AgCl reference",
+      "100% CO2 sparge at 20 mL/min",
+      "DSMZ 311 medium modified with 50 mM NaHCO3"
+    ]
+  },
+  {
+    "id": "PROT-020",
+    "title": "Acetate quantification by Megazyme enzymatic assay",
+    "source": "Megazyme",
+    "doi": "none",
+    "url": "https://www.megazyme.com/documents/Assay_Protocol/K-ACETRM_DATA.pdf",
+    "year": 2023,
+    "domain": [
+      "climate"
+    ],
+    "experimentType": "microbial",
+    "summary": "Enzymatic colorimetric assay: acetate + CoA + ATP converted to acetyl-CoA, NADH generation measured at 340 nm.",
+    "keyParameters": [
+      "Centrifuge sample 10,000g 5 min to remove cells",
+      "Dilute to 0.3-5 mmol/L range",
+      "Read at 340 nm against blank",
+      "LLOQ 0.3 mg/L"
+    ]
+  },
+  {
+    "id": "PROT-021",
+    "title": "Anaerobic chamber technique for strict anaerobes",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.n92ldm8ekl5b",
+    "url": "https://www.protocols.io/view/anaerobic-chamber-technique",
+    "year": 2022,
+    "domain": [
+      "climate",
+      "gut_health"
+    ],
+    "experimentType": "microbial",
+    "summary": "Prepare and handle all Sporomusa cultures in Coy anaerobic chamber (5% H2, 10% CO2, 85% N2). Pre-reduce medium with cysteine-HCl.",
+    "keyParameters": [
+      "5% H2, 10% CO2, 85% N2 atmosphere",
+      "Pre-reduce medium 24h before inoculation",
+      "Cysteine-HCl 0.5 g/L as reducing agent",
+      "Monitor with resazurin or indigo carmine indicator"
+    ]
+  },
+  {
+    "id": "PROT-022",
+    "title": "HPLC analysis of short-chain fatty acids including acetate",
+    "source": "bio-protocol.org",
+    "doi": "10.21769/BioProtoc.3225",
+    "url": "https://bio-protocol.org/e3225",
+    "year": 2019,
+    "domain": [
+      "climate"
+    ],
+    "experimentType": "microbial",
+    "summary": "Aminex HPX-87H column, 5 mM H2SO4 mobile phase, 0.6 mL/min, 35C, RI detector or UV 210 nm for organic acids.",
+    "keyParameters": [
+      "Aminex HPX-87H column 300x7.8mm",
+      "Mobile phase 5 mM H2SO4 isocratic",
+      "Flow rate 0.6 mL/min at 35C",
+      "Acetate retention time ~14 min"
+    ]
+  },
+  {
+    "id": "PROT-023",
+    "title": "Chronoamperometry for long-term bioelectrochemical monitoring",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.kqdg3xpn",
+    "url": "https://www.protocols.io/view/chronoamperometry-BES",
+    "year": 2021,
+    "domain": [
+      "climate"
+    ],
+    "experimentType": "electrochemical",
+    "summary": "Apply constant -400 mV vs SHE, record current vs time over 7-14 days, correlate cathodic current with acetate production rate.",
+    "keyParameters": [
+      "Sample catholyte every 24h for HPLC",
+      "Log current at 1 min intervals",
+      "Calculate Coulombic efficiency from integrated charge vs acetate mol",
+      "Replace medium at 50% volume every 48h"
+    ]
+  },
+  {
+    "id": "PROT-024",
+    "title": "SDS-PAGE protein gel electrophoresis",
+    "source": "Bio-Rad",
+    "doi": "none",
+    "url": "https://www.bio-rad.com/en-us/applications-technologies/sds-page",
+    "year": 2023,
+    "domain": [
+      "cell_biology",
+      "gut_health"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "Denature protein samples with LDS loading buffer at 70C, load 20-30 ug/lane on NuPAGE 4-12% Bis-Tris gel, run in MOPS buffer 200V 50 min.",
+    "keyParameters": [
+      "LDS sample buffer 70C 10 min denaturation",
+      "20-30 ug protein per lane",
+      "MOPS SDS running buffer",
+      "200V constant for 50 min"
+    ]
+  },
+  {
+    "id": "PROT-025",
+    "title": "Bradford protein quantification assay",
+    "source": "Bio-Rad",
+    "doi": "none",
+    "url": "https://www.bio-rad.com/en-us/applications-technologies/bradford-protein-assay",
+    "year": 2023,
+    "domain": [
+      "cell_biology",
+      "gut_health",
+      "diagnostics"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "Add Bradford reagent to sample, incubate 5 min, read A595. BSA standard curve 0-1500 ug/mL.",
+    "keyParameters": [
+      "5 min incubation at RT",
+      "Read A595",
+      "BSA standard curve R2 >0.99",
+      "Reagent stable 2 weeks at 4C"
+    ]
+  },
+  {
+    "id": "PROT-026",
+    "title": "Immunofluorescence staining of tight junction proteins",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.81wgbyxzpgpk",
+    "url": "https://www.protocols.io/view/if-tight-junction",
+    "year": 2022,
+    "domain": [
+      "gut_health",
+      "cell_biology"
+    ],
+    "experimentType": "in_vivo",
+    "summary": "Cryosection or paraffin section of intestine, antigen retrieval (citrate pH 6), block with donkey serum, probe claudin-1 and occludin, secondary Alexa Fluor, DAPI counterstain, mount in ProLong Gold.",
+    "keyParameters": [
+      "Antigen retrieval: 10 mM citrate pH 6, 95C 20 min",
+      "Primary antibody 1:100 overnight 4C",
+      "Secondary antibody 1:500 1h RT",
+      "DAPI 1 ug/mL 5 min"
+    ]
+  },
+  {
+    "id": "PROT-027",
+    "title": "RNA extraction from mouse intestinal tissue",
+    "source": "Qiagen",
+    "doi": "none",
+    "url": "https://www.qiagen.com/us/products/discovery-and-translational-research/dna-rna-purification/rna-purification/total-rna/rneasy-kits/",
+    "year": 2023,
+    "domain": [
+      "gut_health"
+    ],
+    "experimentType": "in_vivo",
+    "summary": "Snap-freeze 20-30 mg intestinal tissue in liquid nitrogen, homogenize in RLT + 1% beta-ME, column purify with DNase I on-column digestion, elute in 30 uL RNase-free water.",
+    "keyParameters": [
+      "Homogenize in 600 uL RLT+BME",
+      "On-column DNase I 15 min RT",
+      "Elute twice 15 uL each",
+      "Check A260/A280 >1.8 by NanoDrop"
+    ]
+  },
+  {
+    "id": "PROT-028",
+    "title": "ELISA general sandwich protocol",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.yxmvmqjobl3p",
+    "url": "https://www.protocols.io/view/elisa-general-sandwich",
+    "year": 2023,
+    "domain": [
+      "diagnostics",
+      "gut_health",
+      "cell_biology"
+    ],
+    "experimentType": "in_vitro",
+    "summary": "Coat plate overnight, block, incubate sample + standards, biotinylated detection antibody, streptavidin-HRP, TMB substrate, stop with H2SO4, read 450-570 nm.",
+    "keyParameters": [
+      "Coat overnight 4C in carbonate buffer pH 9.6",
+      "Block 1h 5% BSA or 10% FBS",
+      "All steps in triplicate",
+      "Stop: 2N H2SO4, read within 30 min"
+    ]
+  },
+  {
+    "id": "PROT-029",
+    "title": "Statistical analysis for pre-clinical in vivo studies",
+    "source": "Nature Protocols",
+    "doi": "10.1038/nprot.2010.183",
+    "url": "https://www.nature.com/articles/nprot.2010.183",
+    "year": 2010,
+    "domain": [
+      "gut_health",
+      "cell_biology",
+      "diagnostics",
+      "climate"
+    ],
+    "experimentType": "in_vivo",
+    "summary": "Power calculation prior to study, confirm normality (Shapiro-Wilk), two-tailed Student's t-test or Mann-Whitney for two groups, ANOVA + Tukey for multiple groups.",
+    "keyParameters": [
+      "G*Power for sample size calculation",
+      "Shapiro-Wilk normality test",
+      "Alpha = 0.05, power = 0.80",
+      "Report mean +/- SEM, not SD for group data"
+    ]
+  },
+  {
+    "id": "PROT-030",
+    "title": "Cyclic voltammetry electrode characterization",
+    "source": "protocols.io",
+    "doi": "dx.doi.org/10.17504/protocols.io.x54v9y58pl3e",
+    "url": "https://www.protocols.io/view/cv-electrode-characterization",
+    "year": 2021,
+    "domain": [
+      "diagnostics",
+      "climate"
+    ],
+    "experimentType": "electrochemical",
+    "summary": "CV scan -0.3 to +0.7 V vs Ag/AgCl at 10-100 mV/s in 5 mM ferri/ferrocyanide PBS, determine heterogeneous rate constant and EASA.",
+    "keyParameters": [
+      "Scan rates: 10, 25, 50, 75, 100 mV/s",
+      "5 mM K3/K4Fe(CN)6 in 0.1M PBS pH 7.4",
+      "Randles-Sevcik analysis for EASA",
+      "Peak separation <59 mV = quasi-reversible"
+    ]
+  }
+]

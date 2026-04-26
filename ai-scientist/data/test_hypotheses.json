@@ -1,0 +1,82 @@
+[
+  {
+    "id": "HYPO-001",
+    "title": "HeLa cryopreservation - trehalose vs DMSO",
+    "domain": "cell_biology",
+    "experimentType": "in_vitro",
+    "hypothesis": "Replacing sucrose with trehalose as a cryoprotectant in the freezing medium will increase post-thaw viability of HeLa cells by at least 15 percentage points compared to the standard DMSO protocol, due to trehalose's superior membrane stabilization at low temperatures.",
+    "expectedNovelty": "similar_exists",
+    "demoPriority": 1,
+    "notes": "Best demo hypothesis. Concrete, visual, budget realistic (~EUR 5,860). Uses HeLa + trehalose from catalog."
+  },
+  {
+    "id": "HYPO-002",
+    "title": "LGG probiotic gut permeability in C57BL/6 mice",
+    "domain": "gut_health",
+    "experimentType": "in_vivo",
+    "hypothesis": "Supplementing C57BL/6 mice with Lactobacillus rhamnosus GG for 4 weeks will reduce intestinal permeability by at least 30% compared to controls, measured by FITC-dextran assay, due to upregulation of tight junction proteins claudin-1 and occludin.",
+    "expectedNovelty": "similar_exists",
+    "demoPriority": 2,
+    "notes": "Strong secondary demo. Well-established field, Tavily will find many references."
+  },
+  {
+    "id": "HYPO-003",
+    "title": "CRP paper biosensor below 0.5 mg/L in whole blood",
+    "domain": "diagnostics",
+    "experimentType": "electrochemical",
+    "hypothesis": "A paper-based electrochemical biosensor functionalized with anti-CRP antibodies will detect C-reactive protein in whole blood at concentrations below 0.5 mg/L within 10 minutes, matching laboratory ELISA sensitivity without requiring sample preprocessing.",
+    "expectedNovelty": "similar_exists",
+    "demoPriority": 3,
+    "notes": "Good for showing electrochemical domain. Budget higher (~EUR 8,000). Complex protocol but impressive."
+  },
+  {
+    "id": "HYPO-004",
+    "title": "Sporomusa ovata CO2 to acetate at -400 mV vs SHE",
+    "domain": "climate",
+    "experimentType": "electrochemical",
+    "hypothesis": "Introducing Sporomusa ovata into a bioelectrochemical system at a cathode potential of -400mV vs SHE will fix CO2 into acetate at a rate of at least 150 mmol/L/day, outperforming current biocatalytic carbon capture benchmarks by at least 20%.",
+    "expectedNovelty": "similar_exists",
+    "demoPriority": 4,
+    "notes": "Climate domain. Directly from brief. Specialist reagents available in catalog."
+  },
+  {
+    "id": "HYPO-005",
+    "title": "Claudin-1 overexpression reduces paracellular permeability in Caco-2 cells",
+    "domain": "gut_health",
+    "experimentType": "in_vitro",
+    "hypothesis": "Lentiviral overexpression of claudin-1 in Caco-2 cells will reduce FITC-dextran (4 kDa) paracellular flux by at least 40% compared to empty-vector controls, confirming claudin-1 as a primary determinant of intestinal barrier function.",
+    "expectedNovelty": "exact_match",
+    "demoPriority": 5,
+    "notes": "Good for demonstrating 'exact match' novelty signal. Well-studied topic."
+  },
+  {
+    "id": "HYPO-006",
+    "title": "High-dose probiotic cocktail reduces LPS-induced systemic inflammation in mice",
+    "domain": "gut_health",
+    "experimentType": "in_vivo",
+    "hypothesis": "A 4-strain probiotic cocktail (LGG, L. acidophilus, B. longum, B. breve) dosed daily for 3 weeks prior to LPS challenge will reduce serum IL-6 by at least 50% and TNF-alpha by 40% compared to LPS-challenged controls, via gut-barrier-mediated endotoxin neutralization.",
+    "expectedNovelty": "novel",
+    "demoPriority": 6,
+    "notes": "Good for demonstrating 'novel' signal - specific strain combination is less studied."
+  },
+  {
+    "id": "HYPO-007",
+    "title": "Microfluidic antibody capture improves CRP detection speed to 5 minutes",
+    "domain": "diagnostics",
+    "experimentType": "electrochemical",
+    "hypothesis": "Integrating a microfluidic channel with 3D-printed laminar flow into a paper-based CRP biosensor will reduce sample-to-result time from 10 to 5 minutes while maintaining a LOD below 0.5 mg/L, by concentrating analyte at the electrode surface.",
+    "expectedNovelty": "novel",
+    "demoPriority": 7,
+    "notes": "Stretch hypothesis showing novelty detection works for genuinely novel ideas."
+  },
+  {
+    "id": "HYPO-008",
+    "title": "Succinic acid as co-product in Sporomusa BES system",
+    "domain": "climate",
+    "experimentType": "microbial",
+    "hypothesis": "Modifying the catholyte pH from 7.0 to 5.5 in a Sporomusa ovata bioelectrochemical system will shift the product distribution from acetate (dominant at pH 7) to include succinate at >20% molar yield, exploiting the pH-dependent fumarate reductase pathway.",
+    "expectedNovelty": "novel",
+    "demoPriority": 8,
+    "notes": "Advanced climate hypothesis. Less studied. Good for 'novel' signal demonstration."
+  }
+]
