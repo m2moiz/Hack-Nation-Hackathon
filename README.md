@@ -12,7 +12,7 @@ Dexter turns a scientific hypothesis into a complete, sourceable experiment prot
 ┌─────────────────────────────┐        ┌──────────────────────────────┐
 │  dexter-plan-forge          │        │  ai-scientist-backend        │
 │  React + Vite + TanStack    │──────▶ │  Next.js + GPT-4o            │
-│  Hosted on Lovable          │  API   │  Hosted on Vercel            │
+│  Hosted on Vercel           │  API   │  Hosted on Vercel            │
 └─────────────────────────────┘        └──────────────────────────────┘
 ```
 
@@ -37,7 +37,7 @@ Dexter turns a scientific hypothesis into a complete, sourceable experiment prot
 
 | Part | Repo | Hosting |
 |---|---|---|
-| Frontend | [m2moiz/dexter-plan-forge](https://github.com/m2moiz/dexter-plan-forge) | Lovable |
+| Frontend | [m2moiz/dexter-plan-forge](https://github.com/m2moiz/dexter-plan-forge) | Vercel |
 | Backend | [Woupa/ai-scientist-backend](https://github.com/Woupa/ai-scientist-backend) | Vercel |
 
 ---
@@ -113,7 +113,7 @@ The Vite dev server proxies `/api/*` to `http://localhost:3000` automatically.
 VITE_API_URL=https://ai-scientist-backend.vercel.app
 ```
 
-Set this in **Lovable → Settings → Environment Variables**.
+Set this in **Vercel → Settings → Environment Variables**.
 
 ---
 
